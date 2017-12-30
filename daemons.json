@@ -1,0 +1,20 @@
+{
+	"apps": [
+		{
+			"name": "nodetick",
+			"script": "/home/cnnitouch/node/nodetick/app/index.js"
+		},
+		{
+			"name": "multi_sync",
+			"script": "/home/cnnitouch/node/multi_sync/multi_sync.js"
+		},
+		{
+			"name": "cnn_talk_captions",
+			"script": "/home/cnnitouch/node/cnn_talk_captions/index.js"
+		},
+		{
+			"name": "live_twitter_map",
+			"script": "/home/cnnitouch/node/live_twitter_map/index.js"
+		}
+	]
+}
