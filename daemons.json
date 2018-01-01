@@ -6,11 +6,11 @@
 		},
 		{
 			"name": "multi_sync",
-			"script": "/home/cnnitouch/node/multi_sync/multi_sync.js"
+			"script": "/home/cnnitouch/node/multi_sync/index.js"
 		},
 		{
 			"name": "cnn_talk_captions",
-			"script": "/home/cnnitouch/node/cnn_talk_captions/index.js"
+			"script": "/home/cnnitouch/www/apps/misc/cnn_talk/captions/server/index.js",
 		},
 		{
 			"name": "live_twitter_map",
