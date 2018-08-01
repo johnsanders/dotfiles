@@ -22,7 +22,7 @@ autocmd VimEnter * wincmd p
 autocmd CompleteDone * pclose		" Close autocomplete preview on select
 
 " -- Display 
-  set title                 " Update the title of your window or your  terminal
+"set title                 " Update the title of your window or your  terminal
   set number                " Display line numbers
   set ruler                 " Display cursor position
   set wrap                  " Wrap lines when they are too long
