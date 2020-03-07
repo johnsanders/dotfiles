@@ -2,8 +2,9 @@
 	"apps": [
 		{
 			"name": "nodetick",
-			"script": "/home/cnnitouch/node/nodetick/app/index.js",
-			"output": "/dev/null"
+			"script": "/home/cnnitouch/node/nodetick/dist/index.js",
+			"output": "/dev/null",
+			"node_args": "--inspect --max_old_space_size=500"
 		},
 		{
 			"name": "multi_sync",
@@ -12,17 +13,21 @@
 		},
 		{
 			"name": "util_server",
-			"script": "/home/cnnitouch/node/util_server_main/dist/server.js",
+			"cwd": "/home/cnnitouch/node/util_server_main/dist/",
+			"script": "index.js",
+			"env": { "NODE_ENV": "production" },
 			"output": "/dev/null"
 		},
 		{
-			"name": "cnn_talk_captions",
-			"script": "/home/cnnitouch/www/apps/misc/cnn_talk/captions/server/index.js",
+			"name": "graphql",
+			"cwd": "/home/cnnitouch/node/cnnitouch-graphql-server/dist/",
+			"script": "index.js",
 			"output": "/dev/null"
 		},
 		{
-			"name": "live_twitter_map",
-			"script": "/home/cnnitouch/node/live_twitter_map/index.js",
+			"name": "caspar",
+			"cwd": "/home/cnnitouch/node/cnnitouch-casparcg-control-server/dist/",
+			"script": "index.js",
 			"output": "/dev/null"
 		}
 	]

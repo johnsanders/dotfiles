@@ -19,3 +19,4 @@ export NVM_DIR="/home/cnnitouch/.nvm"
 
 alias tmux="tmux -2"
 alias wx="curl wttr.in/london"
+
