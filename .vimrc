@@ -10,8 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
-Plugin 'marijnh/tern_for_vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'jiangmiao/auto-pairs'
@@ -22,7 +20,7 @@ autocmd VimEnter * wincmd p
 autocmd CompleteDone * pclose		" Close autocomplete preview on select
 
 " -- Display 
-  set title                 " Update the title of your window or your  terminal
+"set title                 " Update the title of your window or your  terminal
   set number                " Display line numbers
   set ruler                 " Display cursor position
   set wrap                  " Wrap lines when they are too long
