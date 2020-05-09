@@ -1,5 +1,7 @@
 Host cnnitouch-prod1
 	User cnnitouch
+Host cnnitouch
+	User cnnitouch
 Host cnnitouch-prod1.turner.com
 	User cnnitouch
 Host loncnn-ziv1
