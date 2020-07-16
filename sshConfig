@@ -1,10 +1,19 @@
+Host cnntoolbox.com
+	User cnnitouch
+Host toolbox
+	HostName cnntoolbox.com
+	User cnnitouch
 Host cnnitouch-prod1
 	User cnnitouch
 Host cnnitouch
 	User cnnitouch
 Host cnnitouch-prod1.turner.com
 	User cnnitouch
+Host loncnn-ziv2
+	User cnnitouch
 Host loncnn-ziv1
+	User cnnitouch
+Host loncnn-ziv1.tbsbest.com
 	User cnnitouch
 Host loncnn-ziv2.tbsbest.com
 	User cnnitouch
@@ -12,3 +21,5 @@ Host cnnitouch-prod1.tbsbest.com
 	User cnnitouch
 Host cnnitouch-prod2.tbsbest.com
 	User cnnitouch
+Host theregoesjohn.com
+	User jon13210
