@@ -3,6 +3,11 @@ Host cnntoolbox.com
 Host toolbox
 	HostName cnntoolbox.com
 	User cnnitouch
+Host render-1.cnntoolbox.com
+	User cnnitouch
+Host render-1
+	HostName render-1.cnntoolbox.com
+	User cnnitouch
 Host cnnitouch-prod1
 	User cnnitouch
 Host cnnitouch
