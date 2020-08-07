@@ -1,3 +1,6 @@
+Host academy
+	HostName academy.cnntoolbox.com
+	User cnnitouch
 Host cnntoolbox.com
 	User cnnitouch
 Host toolbox
